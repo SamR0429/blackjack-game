@@ -1,11 +1,11 @@
 ///////////IIFE
-(() =>{
+(() => {
     /*
     * we need to create a deck of cards; we need an array of objects , with the cards in order , with the characteristics of the card with in the object such as (number/character , value ,suit)
     *
     * create a player hand and computer hand; empty array for each starting off, then use .push,.remove for adding and removing cards, and a accumulator to keep track of the sum of the array
     *
-    * display dealers hand and players hand(one of the dealers cards will be hidden)
+    * display dealers hand and players hand(one of the dealers cards will be hidden); this is going to have to have a array and only show ONE index of that array and not show the other
     *
     * if either player or dealer is dealt 21, they win, if anything more that 21 they lose, its called a bust and you lose, if you BOTH get 21 its a draw; need an if/else statement for loop, while loop maybe ? saying if or while this condition is true (being either player or dealer is under 21 , the 'statement' is equal to true) , then returns false once the hand goes over 21 ending the game
     *
@@ -19,33 +19,51 @@
     * */
 
 
-
-
-
-
-
-
-
-
-
     //Global
-
-
-
-
-
+    let playerHand = [];
+    let dealerHand = [];
+    let deckOfCards = [];
+    let bust;
+    let win;
 
     //Functions
+    function play() {
+
+    }
+
+    function shuffleCards() {
+
+
+    }
+
+    function sumOfDeck() {
+
+
+    }
+
+    function addingCardsToPlayerHand() {
+
+
+    }
+
+    function removeCardsFromPlayerHand() {
+
+    }
+
+    function addingCardsToDealerHand() {
+
+
+    }
+
+    function removingCardsToDealerHand() {
+
+
+    }
 
 
 
 
     //Event Listeners
-
-
-
-
-
 
 
 })
