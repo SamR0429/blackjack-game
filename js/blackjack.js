@@ -22,11 +22,22 @@
     //Global
     let playerHand = [];
     let dealerHand = [];
-    let deckOfCards = [];
     let bust;
     let win;
+    let deckOfCards = [];
+
+
 
     //Functions
+    function buildingDeck() {
+        let deckOfardsValues = ["A", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+        let deckOfCardTypes = ["C", "H", "S", "D"];
+
+
+
+    }
+
+
     function play() {
 
     }
@@ -59,8 +70,6 @@
 
 
     }
-
-
 
 
     //Event Listeners
